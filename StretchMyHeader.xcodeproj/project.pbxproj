@@ -16,6 +16,7 @@
 		314992EB1EE6F95600ACFABB /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314992EA1EE6F95600ACFABB /* MasterTableViewController.swift */; };
 		314992ED1EE6FC9F00ACFABB /* NewsStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314992EC1EE6FC9F00ACFABB /* NewsStory.swift */; };
 		314992EF1EE6FD7F00ACFABB /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314992EE1EE6FD7F00ACFABB /* NewsItem.swift */; };
+		314992F11EE6FE1900ACFABB /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314992F01EE6FE1900ACFABB /* CategoryManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		314992EA1EE6F95600ACFABB /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		314992EC1EE6FC9F00ACFABB /* NewsStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStory.swift; sourceTree = "<group>"; };
 		314992EE1EE6FD7F00ACFABB /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		314992F01EE6FE1900ACFABB /* CategoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				314992C81EE6F76C00ACFABB /* AppDelegate.swift */,
-				314992EC1EE6FC9F00ACFABB /* NewsStory.swift */,
 				314992EE1EE6FD7F00ACFABB /* NewsItem.swift */,
+				314992EC1EE6FC9F00ACFABB /* NewsStory.swift */,
+				314992F01EE6FE1900ACFABB /* CategoryManager.swift */,
 				314992E81EE6F93300ACFABB /* CustomTableViewCell.swift */,
 				314992EA1EE6F95600ACFABB /* MasterTableViewController.swift */,
 				314992CC1EE6F76C00ACFABB /* Main.storyboard */,
@@ -213,6 +216,7 @@
 				314992E91EE6F93300ACFABB /* CustomTableViewCell.swift in Sources */,
 				314992EB1EE6F95600ACFABB /* MasterTableViewController.swift in Sources */,
 				314992C91EE6F76C00ACFABB /* AppDelegate.swift in Sources */,
+				314992F11EE6FE1900ACFABB /* CategoryManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

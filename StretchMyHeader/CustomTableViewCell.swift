@@ -28,6 +28,12 @@ class CustomTableViewCell: UITableViewCell {
     }
     
     //MARK: Methods
+    func displayCells(newsStory:NewsStory) {
+        let (text,color) = newsStory.category.toString() //calls method to set colors
+        categoryLabel.text = text
+        categoryLabel.textColor = color
+        headlineLabel.text = newsStory.headline
+    }
     
 
 }
